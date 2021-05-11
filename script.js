@@ -4,6 +4,7 @@ let sheetList = document.querySelector(".sheet-list");
 let firstSheet = document.querySelector(".sheet");
 firstSheet.addEventListener("click", makeMeActive);
 
+// to add new sheets
 addBtn.addEventListener("click", function() {
     //extract last sheet number
     let sheets =  document.querySelectorAll(".sheet");
