@@ -16,7 +16,7 @@ let fontSize = document.querySelector(".font-size");
 let formulaBar = document.querySelector(".formula-input")
 let prevCell;
 //represents the state of each cell
-window.sheetDB = [];
+let sheetDB = [];
 
 // to create row number, and number from 1 to 100
 for (let i = 0; i < rows; i++) {
