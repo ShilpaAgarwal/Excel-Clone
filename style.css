@@ -37,15 +37,11 @@ body {
     align-items: center;
 }
 .color-container {
-    width: 10%;
+    width: 8%;
     border-radius: 4px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-#size {
-    height: 100%;
-    width: 100%;
 }
 .formula-container {
     height: 2rem;
@@ -75,6 +71,7 @@ body {
 .top-row {
     width: calc( 100vh - 2rem);
     height: 2rem;
+    text-align: center;
     display: flex;
     position: absolute;
     left: 2rem;
@@ -143,9 +140,13 @@ body {
 .cell {
     min-width: 4rem;
     border: 1px solid rgb(192, 190, 190);
-    text-align: center;
     height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 6px;
+}
+.active-btn {
+    background-color: rgb(135, 192, 173);
+}
+
+.nos-container {
+    
 }

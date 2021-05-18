@@ -7,14 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <div class="menu-container">
+        <!-- select ->option value -->
         <select class="font-size">
             <option value="8">8</option>
             <option value="10">10</option>
             <option value="12">12</option>
-            <option value="16">16</option>
+            <option value="16" selected>16</option>
             <option value="20">20</option>
             <option value="32">32</option>
         </select>
@@ -26,11 +28,8 @@
         </select>
         <div class="bui-container">
             <i class="fas fa-bold bold"></i>
-            <!-- <input type="button" class="bold" value="B"> -->
             <i class="fas fa-italic italics"></i>
-            <!-- <input type="button" class="italics" value="I"> -->
             <i class="fas fa-underline underline"></i>
-            <!-- <input type="button" class="underline" value="U"> -->
         </div>
         <div class="align-container">
             <i class="fas fa-align-left"></i>
@@ -41,6 +40,19 @@
             <input type="color" class="color">
             <input type="color" class="bg-color">
         </div>
+        <!-- new open save -->
+        <div class="nos-container">
+            <span class="material-icons-outlined material-icons">
+                add_circle_outline
+            </span>
+            <span class="material-icons-outlined material-icons">
+                folder_open
+            </span>
+            <span class="material-icons-outlined material-icons">
+                save
+            </span>
+        </div>
+        
     </div>
     <div class="formula-container">
         <input type="text" class="address-input">
@@ -62,5 +74,6 @@
     </div>
     <script src="script.js"></script>
     <script src="grid.js"></script>
+    <script src="formula.js"></script>
 </body>
 </html>
